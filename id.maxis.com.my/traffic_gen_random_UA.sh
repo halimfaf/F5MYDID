@@ -2,7 +2,7 @@
 while true; do
     # for MacOS
     #postdata="next=%2F&username=bien&password=somepass&remember_me=on&submit="
-    ua=$(sort --random-sort ualist | head -n 1)
+    ua=$(sort --random-sort ./../common-asset/ualist | head -n 1)
     postdata="{\"actionType\":\"com.uxpsystems.mint.framework.bpm.process.ManualInputStepAction\",\"processId\":\"4159dd8f-dee6-46dd-a0be-20d7de86795b\",\"parameters\":{\"mobile\":\"60179151575\"}}"
     
     didA="AaZHN2BBBBBBjAY3fLSqDLPwaTwCq6aI"
